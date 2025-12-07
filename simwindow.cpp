@@ -1,5 +1,4 @@
 #include "simwindow.h"
-
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
@@ -57,6 +56,16 @@ SimWindow::SimWindow(QWidget *parent)
     stackTable->verticalHeader()->setVisible(false);
     stackTable->setMinimumHeight(250);
     stackTable->setFont(QFont("Courier New", 14));
+    stackTable->setStyleSheet(
+    "QTableWidget::item { "
+    "   border: 2px solid black; "
+    "   padding: 15px; "
+    "   font-size: 22px; "
+    "   font-weight: bold; "
+    "   background: white; "
+    "}"
+);
+
 
     mid->addWidget(stackTable);
     main->addLayout(mid);
@@ -213,10 +222,8 @@ void SimWindow::displayStep(int i)
 
     for(int r = 0; r < st.size(); r++) {
 
-        QString box =
-            "┌───────┐\n"
-            "│   " + QString(st[r]) + "   │\n"
-            "└───────┘";
+        QString box = QString(st[r]);
+
 
         stackTable->insertRow(r);
         QTableWidgetItem *item = new QTableWidgetItem(box);
