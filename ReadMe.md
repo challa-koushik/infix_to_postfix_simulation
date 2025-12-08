@@ -1,6 +1,6 @@
 
-# 🌟 Infix to Postfix Expression Simulator (Qt C++ GUI)
-## 🔥 Hybrid Professional + Student-Friendly README (Advanced)
+# Infix to Postfix Expression Simulator (Qt C++ GUI)
+## Hybrid Professional + Student-Friendly README (Advanced)
 
 Welcome to the **Infix to Postfix Expression Simulator**, an interactive Qt-based C++ application that visually demonstrates how infix expressions are converted into postfix (Reverse Polish Notation) using a stack.
 
@@ -8,7 +8,7 @@ This README blends **professional open‑source formatting** with **student-frie
 
 ---
 
-# 🚀 Project Summary
+# Project Summary
 
 This project provides a **step-by-step visual simulation** of the classic *Infix → Postfix* conversion algorithm using:
 
@@ -26,9 +26,9 @@ It helps students understand:
 
 ---
 
-# 📌 Key Features
+# Key Features
 
-### ✅ **1. Step-by-Step Simulation**
+### **1. Step-by-Step Simulation**
 Each symbol of the infix expression is processed one step at a time.
 
 Shows:
@@ -39,7 +39,7 @@ Shows:
 
 ---
 
-### ✅ **2. Visual Stack Representation**
+### **2. Visual Stack Representation**
 Operators pushed onto the stack are shown using ASCII boxes:
 
 ```
@@ -55,7 +55,7 @@ Top element is highlighted for clarity.
 
 ---
 
-### ✅ **3. Vertical Token Breakdown**
+### **3. Vertical Token Breakdown**
 Expression like `A+B*C` becomes:
 
 ```
@@ -70,21 +70,21 @@ The current token is automatically highlighted.
 
 ---
 
-### ✅ **4. Clean UI (Beginner-Friendly Layout)**
+### **4. Clean UI (Beginner-Friendly Layout)**
 - No complex styling  
 - Simple layouts  
 - Highly readable simulation steps  
 
 ---
 
-### ✅ **5. Robust Error Handling**
+### **5. Robust Error Handling**
 - Empty input check  
 - Unicode operator normalization  
 - Invalid character prevention  
 
 ---
 
-# 🧠 Algorithm Overview (High-Level)
+# Algorithm Overview (High-Level)
 
 The system follows the standard **Shunting Yard Algorithm**:
 
@@ -100,7 +100,7 @@ A full explanation appears in the "Explanation Box" during the simulation.
 
 ---
 
-# 🖼 GUI Layout Diagram (Conceptual)
+# GUI Layout Diagram (Conceptual)
 
 ```
  ---------------------------------------------------------
@@ -123,10 +123,10 @@ A full explanation appears in the "Explanation Box" during the simulation.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
-📁 Infix-Postfix-Simulator
+ Infix-Postfix-Simulator/
  ├── CMakeLists.txt
  ├── main.cpp
  ├── simwindow.h
@@ -137,9 +137,9 @@ A full explanation appears in the "Explanation Box" during the simulation.
 
 ---
 
-# ⚙️ Build & Run Instructions
+# Build & Run Instructions
 
-## 🔧 **Using Terminal (Linux / WSL / macOS)**
+## **Using Terminal (Linux / WSL / macOS)**
 
 ### Step 1 — Create build folder
 ```bash
@@ -164,7 +164,7 @@ make -j$(nproc)
 
 ---
 
-## 🖥️ Using Qt Creator (Recommended for Students)
+## Using Qt Creator (Recommended for Students)
 
 1. Open **Qt Creator**  
 2. Click **Open Project** → select `CMakeLists.txt`  
@@ -173,7 +173,7 @@ make -j$(nproc)
 
 ---
 
-# 🧩 Technologies Used
+# Technologies Used
 
 | Component | Purpose |
 |----------|----------|
@@ -188,28 +188,28 @@ make -j$(nproc)
 
 ---
 
-# 🎓 Viva Preparation Notes
+# Viva Preparation Notes
 
-### ✅ Why Qt?
+### Why Qt?
 - GUI is easier for students to understand than console  
 - Qt provides built-in widgets  
 - Cross-platform  
 - Signal-slot mechanism simplifies event handling  
 
-### ✅ What is the purpose of the project?
+### What is the purpose of the project?
 “To visually demonstrate the infix-to-postfix conversion using stack operations in a clear, interactive way.”
 
-### ✅ Why show input vertically?
+### Why show input vertically?
 - Helps understand token-by-token processing  
 - Matches manual evaluation method taught in class  
 
-### ✅ Why ASCII stack boxes?
+### Why ASCII stack boxes?
 - Makes stack operations intuitive  
 - Shows push/pop clearly  
 
 ---
 
-# 👥 Team Members
+# Team Members
 
 | Name | Roll No |
 |------|---------|
@@ -220,7 +220,7 @@ make -j$(nproc)
 
 ---
 
-# 🤝 Contribution Roles
+# Contribution Roles
 
 ### **Koushik**
 - Qt window setup  
@@ -240,16 +240,16 @@ make -j$(nproc)
 
 ---
 
-# 📜 License
+# License
 Academic use only. Free for learning and teaching.
 
 ---
 
-# ⭐ Final Note
+# Final Note
 
 If you're a student learning Data Structures, this simulation will help you **understand exactly how infix expressions are converted internally** — with stack operations visible at each step.
 
-Enjoy learning! 🚀
+Enjoy learning!
 
 ``Installing Environment``
 step 1:
